@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{3690428D-792C-41F8-B417-C8802F8500D4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FinitAutomaton/Program.cs">
+    <Files>
+      <File FileName="FinitAutomaton/Program.cs" Line="27" Column="46" />
+      <File FileName="FinitAutomaton/Automaton.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FinitAutomaton" expanded="True">
+            <Node name="FinitAutomaton" expanded="True">
+              <Node name="text" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FinitAutomaton PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

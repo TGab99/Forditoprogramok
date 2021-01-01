@@ -1,0 +1,12 @@
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/bin/Debug/netcoreapp3.1/FinitAutomaton.deps.json
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/bin/Debug/netcoreapp3.1/FinitAutomaton.runtimeconfig.json
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/bin/Debug/netcoreapp3.1/FinitAutomaton.runtimeconfig.dev.json
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/bin/Debug/netcoreapp3.1/FinitAutomaton.dll
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/bin/Debug/netcoreapp3.1/FinitAutomaton.pdb
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/obj/Debug/netcoreapp3.1/FinitAutomaton.csprojAssemblyReference.cache
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/obj/Debug/netcoreapp3.1/FinitAutomaton.AssemblyInfoInputs.cache
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/obj/Debug/netcoreapp3.1/FinitAutomaton.AssemblyInfo.cs
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/obj/Debug/netcoreapp3.1/FinitAutomaton.csproj.CoreCompileInputs.cache
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/obj/Debug/netcoreapp3.1/FinitAutomaton.dll
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/obj/Debug/netcoreapp3.1/FinitAutomaton.pdb
+/Users/torokgabriella/Projects/FinitAutomaton/FinitAutomaton/obj/Debug/netcoreapp3.1/FinitAutomaton.genruntimeconfig.cache
