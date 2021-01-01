@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Veremautomata</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <button type="button" id="createTabl" onclick="createTable(),printElement(),display('createTabl')">
+            Create Table
+        </button>
+        <button type="button" onclick="printStack()">
+            Print Stack
+        </button>
+        <button type="button" id="printText" onclick="stringPrint(),display('printText')">
+            Print Text
+        </button>
+        <button type="button" onclick="ruleNumbersPrint()">
+            Print rule numbers
+        </button>
+        <form id="formId">
+            <label for="input">Input:</label>
+            <input type="text" id="textField"><br>
+            <input type="button" value="Add" onclick="charAndNumReplace(textField.value),display('formId')">
+        </form>
+        <button type="button" onclick="check()">
+            Check
+        </button>
+        <script>
+            //tömb a szabályokkal
+            let array = [[' ','+','*','(',')','i','#'],["E"," "," ","(TE',1)"," ","(TE',1)"," "],
+            ["E'","(+TE',2)"," "," ","(e,3)"," ","(e,3)"],["T"," "," ","(FT',4)"," ","(FT',4)"," "],
+            ["T'","(e,6)","(*FT',5)"," ","(e,6)"," ","(e,6)"],
+            ["F"," "," ","((E),7)"," ","(i,8)"," "],["+","pop"," "," "," "," "," "],
+            ["*"," ","pop"," "," "," "," "],["("," "," ","pop"," "," "," "],[")"," "," "," ","pop"," "," "],
+            ["i"," "," "," "," ","pop"," "],["#"," "," "," "," "," ","accept"]];
+            let stack = ["#","E"];
+            let newString = "";
+            let ruleNumber = [];
+
+            function createTable(){
+                let table = document.createElement('table');
+                let tableBody = document.createElement('tbody');
+
+                array.forEach(function(rowData){
+                    let row = document.createElement('tr');
+
+                    rowData.forEach(function(cellData){
+                        let cell = document.createElement('td');
+                        cell.appendChild(document.createTextNode(cellData));
+                        row.appendChild(cell);
+                    });
+                    tableBody.appendChild(row);
+                });
+                table.appendChild(tableBody);
+                document.body.appendChild(table);
+            }
+
+            function printElement(){
+
+                for(let i in array){
+                    console.log("row: " + i);
+                    for(let j in array[i]){
+                        console.log("" +i + "" + j + ". data: " + array[i][j]);
+                    }
+                }
+            }
+
+            function display(id){
+                document.getElementById(id).style.display = "none";
+            }
+
+            function charAndNumReplace(string){
+                let p = document.createElement('p');
+                p.appendChild(document.createTextNode("Original input: " + string));
+
+                newString = string.replace(/[0-9]+/g,"i") + "#";
+
+                let p2 = document.createElement('p');
+                p2.appendChild(document.createTextNode("Modified input: " + newString));
+
+                document.body.appendChild(p);
+                document.body.appendChild(p2);
+            }
+
+            function printStack(){
+                let p = document.createElement('p');
+                let string = "";
+                let i = stack.length-1;
+
+                while(i >= 0){
+                    string += stack[i];
+                    i--;
+                }
+
+                p.appendChild(document.createTextNode("Elements of the stack: " + string));
+                document.body.appendChild(p);
+            }
+
+            function check(){
+                let stackChar = "";
+                let indexI = 0;
+                let indexJ = 0;
+                let p = document.createElement('p');
+                let rule = "";
+                let info = "";
+                let data = "";
+
+                let index = 0;
+
+                while(index <= newString.length){
+                    stackChar = stack.pop();
+
+                    for(let i in array){
+                        if(array[i][0] == stackChar){
+                            indexI = i;
+                        }
+                    }
+
+                    for(let j in array[0]){
+                        if(array[0][j] == newString[index]){
+                            indexJ = j;
+                        }
+                    }
+
+                    console.log(array[indexI][indexJ]);
+
+                    if(array[indexI][indexJ] == " "){
+                        info = "The input is not correct!";
+                        break;
+                    }else if(array[indexI][indexJ] == "accept"){
+                        info = "The input is correct!";
+                        break;
+                    }else if(array[indexI][indexJ] == "pop"){
+                        index++;
+                    }else{
+                        rule = array[indexI][indexJ];
+
+                        ruleNumber.push(rule.lastIndexOf(",")+1,rule.lastIndexOf(")"));
+
+                        rule = rule.substring(1,rule.lastIndexOf(","));
+                        console.log(rule);
+
+                        let i = rule.length-1;
+
+                        while(i >= 0 ){
+                            if(rule[i] == "e"){
+                                i--;
+                            }else if(rule[i] == "'"){
+                                stack.push(rule[i -1] + rule[i]);
+                                i -= 2;
+                            }else{
+                                stack.push(rule[i]);
+                                i--;
+                            }
+                        }
+                    }
+                }
+
+                p.appendChild(document.createTextNode(info));
+                document.body.appendChild(p);
+            }
+
+            function stringPrint(){
+                let p = document.createElement('p');
+                p.appendChild(document.createTextNode(newString));
+                document.body.appendChild(p);
+            }
+
+            function ruleNumbersPrint(){
+                let p = document.createElement('p');
+                let data = "";
+
+                for(let i in ruleNumber){
+                    for(let j in ruleNumber[i]){
+                        data += ruleNumber[i][j] + " ";
+                    }
+                }
+
+                p.appendChild(document.createTextNode("Numbers of the rules: " + data));
+            }
+        </script>
+
+          
+    </body>
+</html>
