@@ -1,0 +1,12 @@
+/Users/torokgabriella/Projects/Recautomata/Recautomata/bin/Debug/netcoreapp3.1/Recautomata.deps.json
+/Users/torokgabriella/Projects/Recautomata/Recautomata/bin/Debug/netcoreapp3.1/Recautomata.runtimeconfig.json
+/Users/torokgabriella/Projects/Recautomata/Recautomata/bin/Debug/netcoreapp3.1/Recautomata.runtimeconfig.dev.json
+/Users/torokgabriella/Projects/Recautomata/Recautomata/bin/Debug/netcoreapp3.1/Recautomata.dll
+/Users/torokgabriella/Projects/Recautomata/Recautomata/bin/Debug/netcoreapp3.1/Recautomata.pdb
+/Users/torokgabriella/Projects/Recautomata/Recautomata/obj/Debug/netcoreapp3.1/Recautomata.csprojAssemblyReference.cache
+/Users/torokgabriella/Projects/Recautomata/Recautomata/obj/Debug/netcoreapp3.1/Recautomata.AssemblyInfoInputs.cache
+/Users/torokgabriella/Projects/Recautomata/Recautomata/obj/Debug/netcoreapp3.1/Recautomata.AssemblyInfo.cs
+/Users/torokgabriella/Projects/Recautomata/Recautomata/obj/Debug/netcoreapp3.1/Recautomata.csproj.CoreCompileInputs.cache
+/Users/torokgabriella/Projects/Recautomata/Recautomata/obj/Debug/netcoreapp3.1/Recautomata.dll
+/Users/torokgabriella/Projects/Recautomata/Recautomata/obj/Debug/netcoreapp3.1/Recautomata.pdb
+/Users/torokgabriella/Projects/Recautomata/Recautomata/obj/Debug/netcoreapp3.1/Recautomata.genruntimeconfig.cache
