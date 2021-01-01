@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{EAF8C8E0-E7EC-4DCF-93B0-B3153044F55A}|Default">
+  <MonoDevelop.Ide.ItemProperties.Forditoprogramok PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Forditoprogramok/Program.cs">
+    <Files>
+      <File FileName="Forditoprogramok/Program.cs" Line="18" Column="34" />
+      <File FileName="Forditoprogramok/SourceHandler.cs" Line="24" Column="49" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Forditoprogramok" expanded="True">
+            <Node name="Forditoprogramok" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

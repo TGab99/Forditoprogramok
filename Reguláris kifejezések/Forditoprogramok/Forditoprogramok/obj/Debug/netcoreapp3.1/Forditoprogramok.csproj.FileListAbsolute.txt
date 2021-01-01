@@ -1,0 +1,12 @@
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/bin/Debug/netcoreapp3.1/Forditoprogramok.deps.json
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/bin/Debug/netcoreapp3.1/Forditoprogramok.runtimeconfig.json
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/bin/Debug/netcoreapp3.1/Forditoprogramok.runtimeconfig.dev.json
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/bin/Debug/netcoreapp3.1/Forditoprogramok.dll
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/bin/Debug/netcoreapp3.1/Forditoprogramok.pdb
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/obj/Debug/netcoreapp3.1/Forditoprogramok.csprojAssemblyReference.cache
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/obj/Debug/netcoreapp3.1/Forditoprogramok.AssemblyInfoInputs.cache
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/obj/Debug/netcoreapp3.1/Forditoprogramok.AssemblyInfo.cs
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/obj/Debug/netcoreapp3.1/Forditoprogramok.csproj.CoreCompileInputs.cache
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/obj/Debug/netcoreapp3.1/Forditoprogramok.dll
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/obj/Debug/netcoreapp3.1/Forditoprogramok.pdb
+/Users/torokgabriella/Projects/Forditoprogramok/Forditoprogramok/obj/Debug/netcoreapp3.1/Forditoprogramok.genruntimeconfig.cache
