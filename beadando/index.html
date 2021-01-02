@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Veremautomata</title>
+        <title>Stack Automaton</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -12,7 +12,7 @@
         <button type="button" onclick="printStack()">
             Print Stack
         </button>
-        <button type="button" id="printText" onclick="stringPrint(),display('printText')">
+        <button type="button" id="printText" onclick="stringPrint()">
             Print Text
         </button>
         <button type="button" onclick="ruleNumbersPrint()">
@@ -103,6 +103,7 @@
                 let indexJ = 0;
                 let p = document.createElement('p');
                 let rule = "";
+                let number = "";
                 let info = "";
                 let data = "";
 
@@ -135,8 +136,9 @@
                         index++;
                     }else{
                         rule = array[indexI][indexJ];
-
-                        ruleNumber.push(rule.lastIndexOf(",")+1,rule.lastIndexOf(")"));
+                        number = rule.substring(rule.lastIndexOf(",")+1,rule.lastIndexOf(")"));
+                        console.log(number);
+                        ruleNumber.push(number);
 
                         rule = rule.substring(1,rule.lastIndexOf(","));
                         console.log(rule);
@@ -171,13 +173,12 @@
                 let p = document.createElement('p');
                 let data = "";
 
-                for(let i in ruleNumber){
-                    for(let j in ruleNumber[i]){
-                        data += ruleNumber[i][j] + " ";
-                    }
+                for(let i = 0; i < ruleNumber.length; i++){
+                    data += ruleNumber[i] + " ";
                 }
 
                 p.appendChild(document.createTextNode("Numbers of the rules: " + data));
+                document.body.appendChild(p);
             }
         </script>
 
